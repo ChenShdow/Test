@@ -119,9 +119,9 @@ public class RedisUtils {
      * @return
      * setIfAbsent:分布式锁
      */
-//    public boolean setnxAndExpire(String key,Object value,long expire){
-//        return redisTemplate.opsForValue().setIfAbsent(key,value,expire,TimeUnit.SECONDS);
-//    }
+    /*public boolean setnxAndExpire(String key,Object value,long expire){
+        return redisTemplate.opsForValue().setIfAbsent(key,value,expire,TimeUnit.SECONDS);
+    }*/
 
     /**
      *
