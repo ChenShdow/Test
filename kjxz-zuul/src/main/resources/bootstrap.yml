@@ -1,0 +1,20 @@
+spring:
+  application:
+    #test 获取 git上test-test中的内容
+    name: kjxz-zuul
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: kjxz-config
+      # 默认加载 test-test
+      profile: test
+eureka:
+  instance:
+    hostname: zuul
+  client:
+    service-url:
+      #指定用这个地址来注册 ,http://eureka2:8001/eureka
+      defaultZone: http://eureka1:8000/eureka
+server:
+  port: 9000

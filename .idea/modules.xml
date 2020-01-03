@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kjxz-config/kjxz-config.iml" filepath="$PROJECT_DIR$/kjxz-config/kjxz-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kjxz-coupon-parent/kjxz-coupon-common/kjxz-coupon-common.iml" filepath="$PROJECT_DIR$/kjxz-coupon-parent/kjxz-coupon-common/kjxz-coupon-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kjxz-coupon-parent/kjxz-coupon-dispatch/kjxz-coupon-dispatch.iml" filepath="$PROJECT_DIR$/kjxz-coupon-parent/kjxz-coupon-dispatch/kjxz-coupon-dispatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kjxz-coupon-parent/kjxz-coupon-manager/kjxz-coupon-manager.iml" filepath="$PROJECT_DIR$/kjxz-coupon-parent/kjxz-coupon-manager/kjxz-coupon-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kjxz-coupon-parent/kjxz-coupon-parent.iml" filepath="$PROJECT_DIR$/kjxz-coupon-parent/kjxz-coupon-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kjxz-coupon-parent/kjxz-coupon-use/kjxz-coupon-use.iml" filepath="$PROJECT_DIR$/kjxz-coupon-parent/kjxz-coupon-use/kjxz-coupon-use.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kjxz-eureka/kjxz-eureka.iml" filepath="$PROJECT_DIR$/kjxz-eureka/kjxz-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kjxz-global/kjxz-global.iml" filepath="$PROJECT_DIR$/kjxz-global/kjxz-global.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kjxz-parent/kjxz-parent.iml" filepath="$PROJECT_DIR$/kjxz-parent/kjxz-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kjxz-zuul/kjxz-zuul.iml" filepath="$PROJECT_DIR$/kjxz-zuul/kjxz-zuul.iml" />
+    </modules>
+  </component>
+</project>

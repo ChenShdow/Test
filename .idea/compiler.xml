@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kjxz-coupon-manager" />
+        <module name="kjxz-config" />
+        <module name="kjxz-coupon-use" />
+        <module name="kjxz-global" />
+        <module name="kjxz-zuul" />
+        <module name="kjxz-coupon-dispatch" />
+        <module name="kjxz-coupon-common" />
+        <module name="kjxz-eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kjxz-config" target="1.8" />
+      <module name="kjxz-coupon-common" target="1.8" />
+      <module name="kjxz-coupon-dispatch" target="1.8" />
+      <module name="kjxz-coupon-manager" target="1.8" />
+      <module name="kjxz-coupon-parent" target="1.8" />
+      <module name="kjxz-coupon-use" target="1.8" />
+      <module name="kjxz-eureka" target="1.8" />
+      <module name="kjxz-global" target="1.8" />
+      <module name="kjxz-parent" target="1.8" />
+      <module name="kjxz-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kjxz-config" options="-parameters" />
+      <module name="kjxz-coupon-common" options="-parameters" />
+      <module name="kjxz-coupon-dispatch" options="-parameters" />
+      <module name="kjxz-coupon-manager" options="-parameters" />
+      <module name="kjxz-coupon-parent" options="-parameters" />
+      <module name="kjxz-coupon-use" options="-parameters" />
+      <module name="kjxz-eureka" options="-parameters" />
+      <module name="kjxz-global" options="-parameters" />
+      <module name="kjxz-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

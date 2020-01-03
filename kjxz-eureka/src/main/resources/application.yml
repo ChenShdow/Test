@@ -1,0 +1,19 @@
+#conCurrentHashMap<String,Map<String,Lease>>中第一个String，某个服务集群共同的实例名
+spring:
+  application:
+    name: kjxz-eureka
+#conCurrentHashMap<String,Map<String,Lease>>中第二个String，某个服务集群的自己的项目名
+eureka:
+  instance:
+    hostname: eureka1
+    prefer-ip-address: false
+  client:
+    service-url:
+      #告诉别人用这个地址来注册 自己的注册路径为 http://eureka1:8000/eureka
+      defaultZone: http://eureka1:8000/eureka
+      #不让它自己去注册到服务端
+    register-with-eureka: false
+    #数据是否同步
+    fetch-registry: false
+server:
+  port: 8000
