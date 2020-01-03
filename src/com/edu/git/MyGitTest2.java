@@ -8,5 +8,7 @@ public class MyGitTest2 {
         System.out.println("1111");
         System.out.println("4444");
         System.out.println("5555");
+        System.out.println("---------------");
+        System.out.println("6666");
     }
 }
