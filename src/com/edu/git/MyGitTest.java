@@ -7,5 +7,8 @@ public class MyGitTest {
         //todo
         System.out.println("222222222");
         System.out.println("777777777");
+        System.out.println("----------");
+        System.out.println("777777777");
+        System.out.println("777777777");
     }
 }
