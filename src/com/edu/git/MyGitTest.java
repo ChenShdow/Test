@@ -5,5 +5,6 @@ public class MyGitTest {
         System.out.println("XXXXXXXX");
         System.out.println("YYYYYYYY");
         //todo
+        System.out.println("222222222");
     }
 }
