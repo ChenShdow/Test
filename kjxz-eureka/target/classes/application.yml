@@ -1,6 +1,8 @@
+#conCurrentHashMap<String,Map<String,Lease>>中第一个String，某个服务集群共同的实例名
 spring:
   application:
     name: kjxz-eureka
+#conCurrentHashMap<String,Map<String,Lease>>中第二个String，某个服务集群的自己的项目名
 eureka:
   instance:
     hostname: eureka1

@@ -5,6 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
+import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
 import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
@@ -24,7 +25,7 @@ public class SwaggerConfig {
                 // .pathMapping("/")// base，最终调用接口后会和paths拼接在一起
                 .select()
                 // .paths(Predicates.or(PathSelectors.regex("/api/.*")))//过滤的接口
-//                .apis(RequestHandlerSelectors.basePackage("com.edu.dmsjportal.swagger")) //过滤的接口
+                .apis(RequestHandlerSelectors.basePackage("com.edu")) //过滤的接口
                 .paths(PathSelectors.any())
                 .build()
                 //忽略某些参数,不需要swagger描述
